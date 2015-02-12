@@ -1,0 +1,1882 @@
+fileFormatVersion: 2
+guid: a54ac767363484566a26565b796e5554
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head0_JNT
+    100004: HeadEnd_JNT
+    100006: LeftAntenna0_JNT
+    100008: LeftAntenna1_JNT
+    100010: LeftAntennaEnd_JNT
+    100012: LeftArm0_JNT
+    100014: LeftArm1_JNT
+    100016: LeftArm1_JNT_vHitbox
+    100018: LeftArm2_JNT
+    100020: LeftArm2_JNT_vHitbox
+    100022: LeftArm3_JNT
+    100024: LeftArm3_JNT_vHitbox
+    100026: LeftArm3_JNT_vHitbox1
+    100028: LeftArmEnd_JNT
+    100030: LeftDeltoid0_JNT
+    100032: LeftDeltoidAim_HM
+    100034: LeftDeltoidAim_NUL
+    100036: LeftDeltoidEnd_JNT
+    100038: LeftDeltoidOri_HM
+    100040: LeftDeltoidOri_NUL
+    100042: LeftIndexFng0_JNT
+    100044: LeftIndexFng1_JNT
+    100046: LeftIndexFngEnd_JNT
+    100048: LeftLeg0_JNT
+    100050: LeftLeg0_JNT_vHitbox
+    100052: LeftLeg1_JNT
+    100054: LeftLeg1_JNT_vHitbox
+    100056: LeftLeg2_JNT
+    100058: LeftLeg2_JNT_vHitbox
+    100060: LeftLeg2_JNT_vHitbox1
+    100062: LeftLeg3_JNT
+    100064: LeftLegEnd_JNT
+    100066: LeftMiddleFng0_JNT
+    100068: LeftMiddleFng1_JNT
+    100070: LeftMiddleFngEnd_JNT
+    100072: LeftPelvis0_JNT
+    100074: LeftPelvisAim_HM
+    100076: LeftPelvisAim_NUL
+    100078: LeftPelvisEnd_JNT
+    100080: LeftPelvisOri_HM
+    100082: LeftPelvisOri_NUL
+    100084: LeftRingFng0_JNT
+    100086: LeftRingFng1_JNT
+    100088: LeftRingFngEnd_JNT
+    100090: LeftThumbFng0_JNT
+    100092: LeftThumbFng1_JNT
+    100094: LeftThumbFngEnd_JNT
+    100096: LeftWing0_JNT
+    100098: LeftWing0_JNT_vHitbox
+    100100: LeftWing1_JNT
+    100102: LeftWing1_JNT_vHitbox
+    100104: LeftWingEnd_JNT
+    100106: LeftWrist0_JNT
+    100108: LeftWristAim_HM
+    100110: LeftWristAim_NUL
+    100112: LeftWristEnd_JNT
+    100114: LeftWristOri_HM
+    100116: LeftWristOri_NUL
+    100118: MODEL:demon:demon
+    100120: MODEL:demon:demonwings
+    100122: MODEL:demon_LOD:demon001
+    100124: MODEL:demon_LOD:demonwings001
+    100126: Neck0_JNT
+    100128: Neck0_JNT_vHitbox
+    100130: Neck0_JNT_vHitbox1
+    100132: Neck0_JNT_vHitbox2
+    100134: Neck1_JNT
+    100136: RightAntenna0_JNT
+    100138: RightAntenna1_JNT
+    100140: RightAntennaEnd_JNT
+    100142: RightArm0_JNT
+    100144: RightArm1_JNT
+    100146: RightArm1_JNT_vHitbox
+    100148: RightArm2_JNT
+    100150: RightArm2_JNT_vHitbox
+    100152: RightArm3_JNT
+    100154: RightArm3_JNT_vHitbox
+    100156: RightArm3_JNT_vHitbox1
+    100158: RightArmEnd_JNT
+    100160: RightDeltoid0_JNT
+    100162: RightDeltoidAim_HM
+    100164: RightDeltoidAim_NUL
+    100166: RightDeltoidEnd_JNT
+    100168: RightDeltoidOri_HM
+    100170: RightDeltoidOri_NUL
+    100172: RightIndexFng0_JNT
+    100174: RightIndexFng1_JNT
+    100176: RightIndexFngEnd_JNT
+    100178: RightLeg0_JNT
+    100180: RightLeg0_JNT_vHitbox
+    100182: RightLeg1_JNT
+    100184: RightLeg1_JNT_vHitbox
+    100186: RightLeg2_JNT
+    100188: RightLeg2_JNT_vHitbox
+    100190: RightLeg2_JNT_vHitbox1
+    100192: RightLeg3_JNT
+    100194: RightLegEnd_JNT
+    100196: RightMiddleFng0_JNT
+    100198: RightMiddleFng1_JNT
+    100200: RightMiddleFngEnd_JNT
+    100202: RightPelvis0_JNT
+    100204: RightPelvisAim_HM
+    100206: RightPelvisAim_NUL
+    100208: RightPelvisEnd_JNT
+    100210: RightPelvisOri_HM
+    100212: RightPelvisOri_NUL
+    100214: RightRingFng0_JNT
+    100216: RightRingFng1_JNT
+    100218: RightRingFngEnd_JNT
+    100220: RightThumbFng0_JNT
+    100222: RightThumbFng1_JNT
+    100224: RightThumbFngEnd_JNT
+    100226: RightWing0_JNT
+    100228: RightWing0_JNT_vHitbox
+    100230: RightWing1_JNT
+    100232: RightWing1_JNT_vHitbox
+    100234: RightWingEnd_JNT
+    100236: RightWrist0_JNT
+    100238: RightWristAim_HM
+    100240: RightWristAim_NUL
+    100242: RightWristEnd_JNT
+    100244: RightWristOri_HM
+    100246: RightWristOri_NUL
+    100248: Root0_JNT
+    100250: Root0_JNT_vHitbox
+    100252: Root0_JNT_vHitbox1
+    100254: Root0_JNT_vHitbox2
+    100256: Spine0_JNT
+    100258: Spine1_JNT
+    100260: Spine1_JNT_vHitbox
+    100262: Spine1_JNT_vHitbox1
+    100264: Spine2_JNT
+    400000: //RootNode
+    400002: Head0_JNT
+    400004: HeadEnd_JNT
+    400006: LeftAntenna0_JNT
+    400008: LeftAntenna1_JNT
+    400010: LeftAntennaEnd_JNT
+    400012: LeftArm0_JNT
+    400014: LeftArm1_JNT
+    400016: LeftArm1_JNT_vHitbox
+    400018: LeftArm2_JNT
+    400020: LeftArm2_JNT_vHitbox
+    400022: LeftArm3_JNT
+    400024: LeftArm3_JNT_vHitbox
+    400026: LeftArm3_JNT_vHitbox1
+    400028: LeftArmEnd_JNT
+    400030: LeftDeltoid0_JNT
+    400032: LeftDeltoidAim_HM
+    400034: LeftDeltoidAim_NUL
+    400036: LeftDeltoidEnd_JNT
+    400038: LeftDeltoidOri_HM
+    400040: LeftDeltoidOri_NUL
+    400042: LeftIndexFng0_JNT
+    400044: LeftIndexFng1_JNT
+    400046: LeftIndexFngEnd_JNT
+    400048: LeftLeg0_JNT
+    400050: LeftLeg0_JNT_vHitbox
+    400052: LeftLeg1_JNT
+    400054: LeftLeg1_JNT_vHitbox
+    400056: LeftLeg2_JNT
+    400058: LeftLeg2_JNT_vHitbox
+    400060: LeftLeg2_JNT_vHitbox1
+    400062: LeftLeg3_JNT
+    400064: LeftLegEnd_JNT
+    400066: LeftMiddleFng0_JNT
+    400068: LeftMiddleFng1_JNT
+    400070: LeftMiddleFngEnd_JNT
+    400072: LeftPelvis0_JNT
+    400074: LeftPelvisAim_HM
+    400076: LeftPelvisAim_NUL
+    400078: LeftPelvisEnd_JNT
+    400080: LeftPelvisOri_HM
+    400082: LeftPelvisOri_NUL
+    400084: LeftRingFng0_JNT
+    400086: LeftRingFng1_JNT
+    400088: LeftRingFngEnd_JNT
+    400090: LeftThumbFng0_JNT
+    400092: LeftThumbFng1_JNT
+    400094: LeftThumbFngEnd_JNT
+    400096: LeftWing0_JNT
+    400098: LeftWing0_JNT_vHitbox
+    400100: LeftWing1_JNT
+    400102: LeftWing1_JNT_vHitbox
+    400104: LeftWingEnd_JNT
+    400106: LeftWrist0_JNT
+    400108: LeftWristAim_HM
+    400110: LeftWristAim_NUL
+    400112: LeftWristEnd_JNT
+    400114: LeftWristOri_HM
+    400116: LeftWristOri_NUL
+    400118: MODEL:demon:demon
+    400120: MODEL:demon:demonwings
+    400122: MODEL:demon_LOD:demon001
+    400124: MODEL:demon_LOD:demonwings001
+    400126: Neck0_JNT
+    400128: Neck0_JNT_vHitbox
+    400130: Neck0_JNT_vHitbox1
+    400132: Neck0_JNT_vHitbox2
+    400134: Neck1_JNT
+    400136: RightAntenna0_JNT
+    400138: RightAntenna1_JNT
+    400140: RightAntennaEnd_JNT
+    400142: RightArm0_JNT
+    400144: RightArm1_JNT
+    400146: RightArm1_JNT_vHitbox
+    400148: RightArm2_JNT
+    400150: RightArm2_JNT_vHitbox
+    400152: RightArm3_JNT
+    400154: RightArm3_JNT_vHitbox
+    400156: RightArm3_JNT_vHitbox1
+    400158: RightArmEnd_JNT
+    400160: RightDeltoid0_JNT
+    400162: RightDeltoidAim_HM
+    400164: RightDeltoidAim_NUL
+    400166: RightDeltoidEnd_JNT
+    400168: RightDeltoidOri_HM
+    400170: RightDeltoidOri_NUL
+    400172: RightIndexFng0_JNT
+    400174: RightIndexFng1_JNT
+    400176: RightIndexFngEnd_JNT
+    400178: RightLeg0_JNT
+    400180: RightLeg0_JNT_vHitbox
+    400182: RightLeg1_JNT
+    400184: RightLeg1_JNT_vHitbox
+    400186: RightLeg2_JNT
+    400188: RightLeg2_JNT_vHitbox
+    400190: RightLeg2_JNT_vHitbox1
+    400192: RightLeg3_JNT
+    400194: RightLegEnd_JNT
+    400196: RightMiddleFng0_JNT
+    400198: RightMiddleFng1_JNT
+    400200: RightMiddleFngEnd_JNT
+    400202: RightPelvis0_JNT
+    400204: RightPelvisAim_HM
+    400206: RightPelvisAim_NUL
+    400208: RightPelvisEnd_JNT
+    400210: RightPelvisOri_HM
+    400212: RightPelvisOri_NUL
+    400214: RightRingFng0_JNT
+    400216: RightRingFng1_JNT
+    400218: RightRingFngEnd_JNT
+    400220: RightThumbFng0_JNT
+    400222: RightThumbFng1_JNT
+    400224: RightThumbFngEnd_JNT
+    400226: RightWing0_JNT
+    400228: RightWing0_JNT_vHitbox
+    400230: RightWing1_JNT
+    400232: RightWing1_JNT_vHitbox
+    400234: RightWingEnd_JNT
+    400236: RightWrist0_JNT
+    400238: RightWristAim_HM
+    400240: RightWristAim_NUL
+    400242: RightWristEnd_JNT
+    400244: RightWristOri_HM
+    400246: RightWristOri_NUL
+    400248: Root0_JNT
+    400250: Root0_JNT_vHitbox
+    400252: Root0_JNT_vHitbox1
+    400254: Root0_JNT_vHitbox2
+    400256: Spine0_JNT
+    400258: Spine1_JNT
+    400260: Spine1_JNT_vHitbox
+    400262: Spine1_JNT_vHitbox1
+    400264: Spine2_JNT
+    4300000: MODEL:demon:demonwings
+    4300002: MODEL:demon:demon
+    4300004: MODEL:demon_LOD:demonwings001
+    4300006: MODEL:demon_LOD:demon001
+    7400000: Walking
+    7400002: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: MODEL:demon:demon
+    13700002: MODEL:demon:demonwings
+    13700004: MODEL:demon_LOD:demon001
+    13700006: MODEL:demon_LOD:demonwings001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MODEL:demon:demon
+        weight: 1
+      - path: MODEL:demon:demonwings
+        weight: 1
+      - path: MODEL:demon_LOD:demon001
+        weight: 1
+      - path: MODEL:demon_LOD:demonwings001
+        weight: 1
+      - path: Root0_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg2_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg3_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg3_JNT/LeftLegEnd_JNT
+        weight: 1
+      - path: Root0_JNT/LeftPelvis0_JNT
+        weight: 1
+      - path: Root0_JNT/LeftPelvis0_JNT/LeftPelvisEnd_JNT
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM/LeftPelvisAim_NUL
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM/LeftPelvisAim_NUL/LeftPelvisOri_HM
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM/LeftPelvisAim_NUL/LeftPelvisOri_HM/LeftPelvisOri_NUL
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg2_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg3_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg3_JNT/RightLegEnd_JNT
+        weight: 1
+      - path: Root0_JNT/RightPelvis0_JNT
+        weight: 1
+      - path: Root0_JNT/RightPelvis0_JNT/RightPelvisEnd_JNT
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM/RightPelvisAim_NUL
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM/RightPelvisAim_NUL/RightPelvisOri_HM
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM/RightPelvisAim_NUL/RightPelvisOri_HM/RightPelvisOri_NUL
+        weight: 1
+      - path: Root0_JNT/Root0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Root0_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Root0_JNT_vHitbox2
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing1_JNT/LeftWing1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing1_JNT/LeftWingEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing1_JNT/RightWing1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing1_JNT/RightWingEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine1_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftAntenna0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftAntenna0_JNT/LeftAntenna1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftAntenna0_JNT/LeftAntenna1_JNT/LeftAntennaEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftArm3_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftArm3_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftArmEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftIndexFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftIndexFng0_JNT/LeftIndexFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftIndexFng0_JNT/LeftIndexFng1_JNT/LeftIndexFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftMiddleFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftMiddleFng0_JNT/LeftMiddleFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftMiddleFng0_JNT/LeftMiddleFng1_JNT/LeftMiddleFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftRingFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftRingFng0_JNT/LeftRingFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftRingFng0_JNT/LeftRingFng1_JNT/LeftRingFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftThumbFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftThumbFng0_JNT/LeftThumbFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftThumbFng0_JNT/LeftThumbFng1_JNT/LeftThumbFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM/LeftWristAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM/LeftWristAim_NUL/LeftWristOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM/LeftWristAim_NUL/LeftWristOri_HM/LeftWristOri_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftWrist0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftWrist0_JNT/LeftWristEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoid0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoid0_JNT/LeftDeltoidEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM/LeftDeltoidAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM/LeftDeltoidAim_NUL/LeftDeltoidOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM/LeftDeltoidAim_NUL/LeftDeltoidOri_HM/LeftDeltoidOri_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck0_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck0_JNT_vHitbox2
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck1_JNT/Head0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck1_JNT/Head0_JNT/HeadEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightAntenna0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightAntenna0_JNT/RightAntenna1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightAntenna0_JNT/RightAntenna1_JNT/RightAntennaEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightArm3_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightArm3_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightArmEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightIndexFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightIndexFng0_JNT/RightIndexFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightIndexFng0_JNT/RightIndexFng1_JNT/RightIndexFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightMiddleFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightMiddleFng0_JNT/RightMiddleFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightMiddleFng0_JNT/RightMiddleFng1_JNT/RightMiddleFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightRingFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightRingFng0_JNT/RightRingFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightRingFng0_JNT/RightRingFng1_JNT/RightRingFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightThumbFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightThumbFng0_JNT/RightThumbFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightThumbFng0_JNT/RightThumbFng1_JNT/RightThumbFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM/RightWristAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM/RightWristAim_NUL/RightWristOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM/RightWristAim_NUL/RightWristOri_HM/RightWristOri_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightWrist0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightWrist0_JNT/RightWristEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoid0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoid0_JNT/RightDeltoidEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM/RightDeltoidAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM/RightDeltoidAim_NUL/RightDeltoidOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM/RightDeltoidAim_NUL/RightDeltoidOri_HM/RightDeltoidOri_NUL
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1.10000002
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MODEL:demon:demon
+        weight: 1
+      - path: MODEL:demon:demonwings
+        weight: 1
+      - path: MODEL:demon_LOD:demon001
+        weight: 1
+      - path: MODEL:demon_LOD:demonwings001
+        weight: 1
+      - path: Root0_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg2_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg3_JNT
+        weight: 1
+      - path: Root0_JNT/LeftLeg0_JNT/LeftLeg1_JNT/LeftLeg2_JNT/LeftLeg3_JNT/LeftLegEnd_JNT
+        weight: 1
+      - path: Root0_JNT/LeftPelvis0_JNT
+        weight: 1
+      - path: Root0_JNT/LeftPelvis0_JNT/LeftPelvisEnd_JNT
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM/LeftPelvisAim_NUL
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM/LeftPelvisAim_NUL/LeftPelvisOri_HM
+        weight: 1
+      - path: Root0_JNT/LeftPelvisAim_HM/LeftPelvisAim_NUL/LeftPelvisOri_HM/LeftPelvisOri_NUL
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg2_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg3_JNT
+        weight: 1
+      - path: Root0_JNT/RightLeg0_JNT/RightLeg1_JNT/RightLeg2_JNT/RightLeg3_JNT/RightLegEnd_JNT
+        weight: 1
+      - path: Root0_JNT/RightPelvis0_JNT
+        weight: 1
+      - path: Root0_JNT/RightPelvis0_JNT/RightPelvisEnd_JNT
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM/RightPelvisAim_NUL
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM/RightPelvisAim_NUL/RightPelvisOri_HM
+        weight: 1
+      - path: Root0_JNT/RightPelvisAim_HM/RightPelvisAim_NUL/RightPelvisOri_HM/RightPelvisOri_NUL
+        weight: 1
+      - path: Root0_JNT/Root0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Root0_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Root0_JNT_vHitbox2
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing1_JNT/LeftWing1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/LeftWing0_JNT/LeftWing1_JNT/LeftWingEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing1_JNT/RightWing1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/RightWing0_JNT/RightWing1_JNT/RightWingEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine1_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftAntenna0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftAntenna0_JNT/LeftAntenna1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftAntenna0_JNT/LeftAntenna1_JNT/LeftAntennaEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftArm3_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftArm3_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftArmEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftIndexFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftIndexFng0_JNT/LeftIndexFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftIndexFng0_JNT/LeftIndexFng1_JNT/LeftIndexFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftMiddleFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftMiddleFng0_JNT/LeftMiddleFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftMiddleFng0_JNT/LeftMiddleFng1_JNT/LeftMiddleFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftRingFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftRingFng0_JNT/LeftRingFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftRingFng0_JNT/LeftRingFng1_JNT/LeftRingFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftThumbFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftThumbFng0_JNT/LeftThumbFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftThumbFng0_JNT/LeftThumbFng1_JNT/LeftThumbFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM/LeftWristAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM/LeftWristAim_NUL/LeftWristOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftArm3_JNT/LeftWristAim_HM/LeftWristAim_NUL/LeftWristOri_HM/LeftWristOri_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftWrist0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftArm1_JNT/LeftArm2_JNT/LeftWrist0_JNT/LeftWristEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoid0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoid0_JNT/LeftDeltoidEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM/LeftDeltoidAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM/LeftDeltoidAim_NUL/LeftDeltoidOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/LeftArm0_JNT/LeftDeltoidAim_HM/LeftDeltoidAim_NUL/LeftDeltoidOri_HM/LeftDeltoidOri_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck0_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck0_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck0_JNT_vHitbox2
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck1_JNT/Head0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/Neck0_JNT/Neck1_JNT/Head0_JNT/HeadEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightAntenna0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightAntenna0_JNT/RightAntenna1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightAntenna0_JNT/RightAntenna1_JNT/RightAntennaEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm1_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm2_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightArm3_JNT_vHitbox
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightArm3_JNT_vHitbox1
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightArmEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightIndexFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightIndexFng0_JNT/RightIndexFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightIndexFng0_JNT/RightIndexFng1_JNT/RightIndexFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightMiddleFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightMiddleFng0_JNT/RightMiddleFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightMiddleFng0_JNT/RightMiddleFng1_JNT/RightMiddleFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightRingFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightRingFng0_JNT/RightRingFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightRingFng0_JNT/RightRingFng1_JNT/RightRingFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightThumbFng0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightThumbFng0_JNT/RightThumbFng1_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightThumbFng0_JNT/RightThumbFng1_JNT/RightThumbFngEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM/RightWristAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM/RightWristAim_NUL/RightWristOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightArm3_JNT/RightWristAim_HM/RightWristAim_NUL/RightWristOri_HM/RightWristOri_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightWrist0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightArm1_JNT/RightArm2_JNT/RightWrist0_JNT/RightWristEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoid0_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoid0_JNT/RightDeltoidEnd_JNT
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM/RightDeltoidAim_NUL
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM/RightDeltoidAim_NUL/RightDeltoidOri_HM
+        weight: 1
+      - path: Root0_JNT/Spine0_JNT/Spine1_JNT/Spine2_JNT/RightArm0_JNT/RightDeltoidAim_HM/RightDeltoidAim_NUL/RightDeltoidOri_HM/RightDeltoidOri_NUL
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Root0_JNT
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg0_JNT
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg0_JNT
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg1_JNT
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg1_JNT
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg2_JNT
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg2_JNT
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine0_JNT
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1_JNT
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck0_JNT
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head0_JNT
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm0_JNT
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm0_JNT
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm1_JNT
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm1_JNT
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm2_JNT
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm2_JNT
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm3_JNT
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm3_JNT
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg3_JNT
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg3_JNT
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftThumbFng0_JNT
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftThumbFng1_JNT
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftIndexFng0_JNT
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftIndexFng1_JNT
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftMiddleFng0_JNT
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftMiddleFng1_JNT
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftRingFng0_JNT
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftRingFng1_JNT
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightThumbFng0_JNT
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightThumbFng1_JNT
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightIndexFng0_JNT
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightIndexFng1_JNT
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightMiddleFng0_JNT
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightMiddleFng1_JNT
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightRingFng0_JNT
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightRingFng1_JNT
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: demon_walk(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MODEL:demon:demon
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MODEL:demon:demonwings
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MODEL:demon_LOD:demon001
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MODEL:demon_LOD:demonwings001
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root0_JNT
+      position: {x: -1.57772178e-32, y: 1.27736533, z: -.00336383516}
+      rotation: {x: -.60673821, y: .363137364, z: .60673821, w: -.363137364}
+      scale: {x: .999999702, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: LeftPelvisAim_HM
+      position: {x: .0617143959, y: .0491692498, z: .140617907}
+      rotation: {x: -.109564193, y: -.0295994747, z: .923258185, w: -.367034018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftPelvisAim_NUL
+      position: {x: -0, y: -3.5527136e-17, z: -7.1054272e-17}
+      rotation: {x: 6.18251033e-33, y: 2.54115681e-16, z: -.0794314221, w: .996840358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftPelvisOri_HM
+      position: {x: -0, y: 0, z: -7.1054272e-17}
+      rotation: {x: 6.9388939e-18, y: 4.42354486e-17, z: -1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftPelvisOri_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightPelvisAim_HM
+      position: {x: .0617178865, y: .0491711497, z: -.140617996}
+      rotation: {x: -.367033958, y: .923258007, z: -.0295998715, w: -.109565191}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightPelvisAim_NUL
+      position: {x: -2.84217088e-16, y: -7.1054272e-17, z: 0}
+      rotation: {x: -6.63842071e-24, y: -8.6476814e-07, z: -.0794323534, w: .996840239}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightPelvisOri_HM
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.12324088e-17, y: 1, z: -6.12324088e-17, w: 1.0890343e-06}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightPelvisOri_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root0_JNT_vHitbox
+      position: {x: .0797142833, y: -.179949522, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 243.029099, y: 128.723724, z: 188.872009}
+      transformModified: 1
+    - name: Root0_JNT_vHitbox1
+      position: {x: .195160121, y: .0403038263, z: -4.8197585e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 73.7030487, y: 58.7997322, z: 71.6556473}
+      transformModified: 1
+    - name: Root0_JNT_vHitbox2
+      position: {x: .0980602354, y: .0643171296, z: -2.10482393e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 55.4750214, y: 44.2575531, z: 53.933979}
+      transformModified: 1
+    - name: LeftLeg0_JNT
+      position: {x: .0617143959, y: .0491692498, z: .140617907}
+      rotation: {x: -.0901474953, y: -.0255082846, z: .93580091, w: -.339852035}
+      scale: {x: .999999821, y: .999999702, z: 1.00000036}
+      transformModified: 1
+    - name: LeftLeg0_JNT_vHitbox
+      position: {x: -.286717892, y: .0268673059, z: -.0250838418}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 57.4153709, y: 42.6869202, z: 25.1939297}
+      transformModified: 1
+    - name: LeftLeg1_JNT
+      position: {x: -.561000347, y: 3.19744217e-16, z: 2.84217088e-16}
+      rotation: {x: .0084121516, y: .0195319932, z: .328876704, w: -.944133461}
+      scale: {x: 1.00000131, y: .999999046, z: .999999166}
+      transformModified: 1
+    - name: LeftLeg1_JNT_vHitbox
+      position: {x: -.254465789, y: .0400368869, z: -.00837606378}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 61.368969, y: 40.8421822, z: 20.4981747}
+      transformModified: 1
+    - name: LeftLeg2_JNT
+      position: {x: -.34755367, y: -4.26325632e-16, z: 2.13162816e-16}
+      rotation: {x: .135911688, y: .0623472333, z: -.416237265, w: -.896876454}
+      scale: {x: 1, y: .999999821, z: 1}
+      transformModified: 1
+    - name: LeftLeg2_JNT_vHitbox
+      position: {x: -.166828126, y: .0313123465, z: .00325363223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 47.2760735, y: 40.3643341, z: 26.101408}
+      transformModified: 1
+    - name: LeftLeg2_JNT_vHitbox1
+      position: {x: -.166828126, y: .0313123465, z: .00325363223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 47.2760735, y: 40.3643341, z: 26.101408}
+      transformModified: 1
+    - name: LeftLeg3_JNT
+      position: {x: -.374394804, y: 2.84217088e-16, z: 2.13162816e-16}
+      rotation: {x: -.0320808105, y: -.0945099741, z: .425912887, w: .899242401}
+      scale: {x: 1.00000107, y: .999999523, z: .999999821}
+      transformModified: 1
+    - name: LeftLegEnd_JNT
+      position: {x: -.138637111, y: 1.7763568e-17, z: 1.42108544e-16}
+      rotation: {x: 2.98023188e-08, y: 2.98023188e-08, z: 5.21540571e-08, w: 1}
+      scale: {x: .999999762, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LeftPelvis0_JNT
+      position: {x: .0617143959, y: .0491692498, z: .140617907}
+      rotation: {x: -.109564185, y: -.0295995176, z: .923258245, w: -.367033958}
+      scale: {x: 1.00000024, y: .999999642, z: 1.00000024}
+      transformModified: 1
+    - name: LeftPelvisEnd_JNT
+      position: {x: -.280500174, y: 1.42108544e-16, z: 7.1054272e-17}
+      rotation: {x: -2.98023188e-08, y: 1.49011594e-08, z: .395554185, w: -.918442607}
+      scale: {x: 1.00000024, y: .999999404, z: .999999464}
+      transformModified: 1
+    - name: RightLeg0_JNT
+      position: {x: .0617178865, y: .0491711497, z: -.140617996}
+      rotation: {x: .0255082566, y: -.0901469216, z: -.339851111, w: -.935801327}
+      scale: {x: 1, y: 1, z: 1.00000048}
+      transformModified: 1
+    - name: RightLeg0_JNT_vHitbox
+      position: {x: .285826951, y: -.0268663019, z: .0250830445}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 57.4153709, y: 42.6869202, z: 25.1939297}
+      transformModified: 1
+    - name: RightLeg1_JNT
+      position: {x: .56099695, y: 1.19824585e-06, z: -2.39272055e-07}
+      rotation: {x: -.00841222703, y: -.0195324123, z: -.328874826, w: .944134057}
+      scale: {x: 1, y: .99999845, z: .999999285}
+      transformModified: 1
+    - name: RightLeg1_JNT_vHitbox
+      position: {x: .254465699, y: -.0400372669, z: .00837551057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 61.368969, y: 40.8421822, z: 20.4981747}
+      transformModified: 1
+    - name: RightLeg2_JNT
+      position: {x: .347553194, y: -6.55371366e-07, z: -4.73588756e-07}
+      rotation: {x: -.135911122, y: -.0623460487, z: .416236579, w: .896876931}
+      scale: {x: 1.00000083, y: 1.00000095, z: 1.00000024}
+      transformModified: 1
+    - name: RightLeg2_JNT_vHitbox
+      position: {x: .166828558, y: -.031312421, z: -.00325377309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 47.2760735, y: 40.3643341, z: 26.101408}
+      transformModified: 1
+    - name: RightLeg2_JNT_vHitbox1
+      position: {x: .166828558, y: -.031312421, z: -.00325377309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 47.2760735, y: 40.3643341, z: 26.101408}
+      transformModified: 1
+    - name: RightLeg3_JNT
+      position: {x: .374395311, y: 2.43340281e-07, z: -1.6961495e-07}
+      rotation: {x: -.0320807435, y: -.0945101157, z: .425912887, w: .899242401}
+      scale: {x: 1.00000012, y: .999999523, z: .999999762}
+      transformModified: 1
+    - name: RightLegEnd_JNT
+      position: {x: .138636827, y: -8.33550118e-08, z: 9.95626763e-08}
+      rotation: {x: 7.45057971e-09, y: 5.40167022e-08, z: 1.04308114e-07, w: 1}
+      scale: {x: .999999881, y: 1.00000024, z: .999999702}
+      transformModified: 1
+    - name: RightPelvis0_JNT
+      position: {x: .0617178865, y: .0491711497, z: -.140617996}
+      rotation: {x: .029599458, y: -.10956414, z: -.367033899, w: -.923258245}
+      scale: {x: .999999523, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: RightPelvisEnd_JNT
+      position: {x: .280496538, y: 9.7153702e-07, z: -5.70658415e-07}
+      rotation: {x: -3.7252903e-08, y: 5.96046448e-08, z: -.395554185, w: .918442726}
+      scale: {x: 1.0000006, y: .999999225, z: .999999702}
+      transformModified: 1
+    - name: Spine0_JNT
+      position: {x: -.109558888, y: -.0440203622, z: 1.19987709e-17}
+      rotation: {x: 2.98023259e-08, y: -2.98023259e-08, z: -.308250159, w: -.95130533}
+      scale: {x: .99999994, y: .999999523, z: .999999881}
+      transformModified: 1
+    - name: LeftWing0_JNT
+      position: {x: -.27219829, y: -.387380779, z: .328610688}
+      rotation: {x: .955805421, y: .0678634346, z: -.189515203, w: .214276701}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: LeftWing0_JNT_vHitbox
+      position: {x: .194254458, y: .64048177, z: -.272447288}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 237.8311, y: 132.183807, z: 58.7410316}
+      transformModified: 1
+    - name: LeftWing1_JNT
+      position: {x: -1.07015252, y: -8.881784e-18, z: 2.13162816e-16}
+      rotation: {x: -3.07336485e-08, y: 0, z: -.495512515, w: .868600845}
+      scale: {x: .999999523, y: 1.00000036, z: 1.00000036}
+      transformModified: 1
+    - name: LeftWing1_JNT_vHitbox
+      position: {x: -.648487449, y: .310105085, z: -.181218222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 181.267441, y: 129.308823, z: 65.9393005}
+      transformModified: 1
+    - name: LeftWingEnd_JNT
+      position: {x: -.431326121, y: 0, z: -4.26325632e-16}
+      rotation: {x: 2.93366611e-08, y: -2.98023224e-08, z: 1.23865902e-07, w: 1}
+      scale: {x: .99999994, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: RightWing0_JNT
+      position: {x: -.272201568, y: -.387379944, z: -.328610986}
+      rotation: {x: -.0678634718, y: .955805421, z: .21427682, w: .189515263}
+      scale: {x: 1.00000036, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWing0_JNT_vHitbox
+      position: {x: -.194257557, y: -.640483081, z: .272447765}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 237.8311, y: 132.183807, z: 58.7410316}
+      transformModified: 1
+    - name: RightWing1_JNT
+      position: {x: 1.07015121, y: -9.58938926e-07, z: -4.19586996e-07}
+      rotation: {x: -2.98023224e-08, y: 1.00117177e-08, z: -.495512456, w: .868600845}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: RightWing1_JNT_vHitbox
+      position: {x: .648486853, y: -.310106754, z: .181219101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 181.267441, y: 129.308823, z: 65.9393005}
+      transformModified: 1
+    - name: RightWingEnd_JNT
+      position: {x: .431324959, y: -6.01231159e-06, z: 1.93420465e-06}
+      rotation: {x: 4.65661287e-10, y: -2.32830644e-10, z: 7.4505806e-09, w: 1}
+      scale: {x: .999999881, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: Spine1_JNT
+      position: {x: -.168983757, y: -1.42108544e-16, z: 9.99702261e-19}
+      rotation: {x: -2.98023224e-08, y: -2.98023224e-08, z: .0301148444, w: .999546468}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
+    - name: Spine1_JNT_vHitbox
+      position: {x: -.164695472, y: .0485114343, z: -1.40077875e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 62.8735275, y: 51.2514343, z: 65.7248535}
+      transformModified: 1
+    - name: Spine1_JNT_vHitbox1
+      position: {x: -.164695472, y: .0485114343, z: -1.40077875e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 62.8735275, y: 51.2514343, z: 65.7248535}
+      transformModified: 1
+    - name: Spine2_JNT
+      position: {x: -.235295936, y: -1.06581408e-16, z: 1.15147305e-17}
+      rotation: {x: 1.49011612e-08, y: -2.98023224e-08, z: -.197914705, w: .980219305}
+      scale: {x: 1.00000072, y: .999999642, z: .999999762}
+      transformModified: 1
+    - name: LeftArm0_JNT
+      position: {x: -.104738154, y: .0733647794, z: .0588345192}
+      rotation: {x: .018392127, y: .78568095, z: .125292554, w: .60553205}
+      scale: {x: .999999881, y: .999999344, z: 1.00000036}
+      transformModified: 1
+    - name: LeftDeltoidAim_HM
+      position: {x: -.290691078, y: 5.3290704e-17, z: 1.13686835e-15}
+      rotation: {x: -.0336088315, y: .344372123, z: -.0604069829, w: .93628484}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftDeltoidAim_NUL
+      position: {x: 2.84217088e-16, y: 0, z: -4.26325632e-16}
+      rotation: {x: 4.3527314e-19, y: -.0249415915, z: -.0817356557, w: .996341884}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftDeltoidOri_HM
+      position: {x: -0, y: -1.7763568e-17, z: 0}
+      rotation: {x: 1.38777878e-17, y: -2.77555756e-17, z: -6.9388939e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftDeltoidOri_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftArm1_JNT
+      position: {x: -.290691078, y: 3.5527136e-17, z: 8.52651264e-16}
+      rotation: {x: -.0848641917, y: -.0890721381, z: -.118951239, w: .985248685}
+      scale: {x: 1.00000012, y: 1.00000083, z: 1.00000048}
+      transformModified: 1
+    - name: LeftArm1_JNT_vHitbox
+      position: {x: -.13235122, y: -.0397935994, z: .0136566348}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 45.6020355, y: 34.2667503, z: 22.3556538}
+      transformModified: 1
+    - name: LeftArm2_JNT
+      position: {x: -.332874566, y: 1.06581408e-16, z: 0}
+      rotation: {x: -.000663810119, y: -.00895922352, z: -.0424330011, w: .999058902}
+      scale: {x: .999999821, y: .999999881, z: 1}
+      transformModified: 1
+    - name: LeftArm2_JNT_vHitbox
+      position: {x: -.262994647, y: -.0118203759, z: -.0416974202}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 51.9964027, y: 27.6394997, z: 27.8289318}
+      transformModified: 1
+    - name: LeftArm3_JNT
+      position: {x: -.514858067, y: 0, z: -1.42108544e-16}
+      rotation: {x: 4.02796871e-08, y: -.109723888, z: -.0142289763, w: .993860245}
+      scale: {x: .99999994, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: LeftArm3_JNT_vHitbox
+      position: {x: -.251923889, y: -.028339766, z: .0982279554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 42.6867218, y: 29.4268456, z: 34.1711922}
+      transformModified: 1
+    - name: LeftArm3_JNT_vHitbox1
+      position: {x: -.251923889, y: -.028339766, z: .0982279554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 42.6867218, y: 29.4268456, z: 34.1711922}
+      transformModified: 1
+    - name: LeftWristAim_HM
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.12323426e-17, y: 1, z: -6.12323426e-17, w: -6.12323426e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWristAim_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWristOri_HM
+      position: {x: -.257429034, y: 1.77635673e-16, z: -4.26325632e-16}
+      rotation: {x: 6.12323426e-17, y: 1, z: -6.12323426e-17, w: -6.12323426e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWristOri_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftArmEnd_JNT
+      position: {x: -.199999988, y: 0, z: -4.26325632e-16}
+      rotation: {x: .115331233, y: .14093934, z: .101814941, w: .977992058}
+      scale: {x: 1.00000012, y: .999999762, z: 1}
+      transformModified: 1
+    - name: LeftIndexFng0_JNT
+      position: {x: -.276089668, y: .0392358415, z: .11957252}
+      rotation: {x: .752192676, y: .197036386, z: -.146330252, w: .611531079}
+      scale: {x: .999999404, y: 1.00000036, z: 1.00000083}
+      transformModified: 1
+    - name: LeftIndexFng1_JNT
+      position: {x: -.136474401, y: 0, z: -8.881784e-18}
+      rotation: {x: 1.95344839e-07, y: -1.4342362e-07, z: -.0203148499, w: .999793708}
+      scale: {x: 1, y: .999999821, z: .999999404}
+      transformModified: 1
+    - name: LeftIndexFngEnd_JNT
+      position: {x: -.216421708, y: 3.46389571e-16, z: 9.32587312e-17}
+      rotation: {x: -7.8231075e-08, y: -1.27125503e-07, z: 8.94069458e-08, w: 1}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: LeftMiddleFng0_JNT
+      position: {x: -.270358443, y: -.044159133, z: .102313176}
+      rotation: {x: .734117329, y: .210016295, z: -.139502749, w: .630479097}
+      scale: {x: .999999583, y: 1.00000036, z: .999999702}
+      transformModified: 1
+    - name: LeftMiddleFng1_JNT
+      position: {x: -.158761635, y: 0, z: 2.6645352e-17}
+      rotation: {x: 1.12049705e-07, y: -1.17812263e-07, z: -.0213322416, w: .999772489}
+      scale: {x: .99999994, y: 1.00000012, z: 1.0000006}
+      transformModified: 1
+    - name: LeftMiddleFngEnd_JNT
+      position: {x: -.249319986, y: 4.4408921e-16, z: -1.50990333e-16}
+      rotation: {x: 9.05710849e-08, y: -8.38190051e-09, z: -2.98023117e-08, w: 1}
+      scale: {x: .999999642, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: LeftRingFng0_JNT
+      position: {x: -.240648672, y: -.113299511, z: .0825115293}
+      rotation: {x: .677175939, y: .228936449, z: -.127576604, w: .687564611}
+      scale: {x: 1.00000036, y: 1.0000006, z: 1.0000006}
+      transformModified: 1
+    - name: LeftRingFng1_JNT
+      position: {x: -.159009099, y: -2.84217088e-16, z: -5.3290704e-17}
+      rotation: {x: 1.45519081e-08, y: -2.01165577e-07, z: -.0286756027, w: .999588788}
+      scale: {x: .999999702, y: .999999642, z: .99999994}
+      transformModified: 1
+    - name: LeftRingFngEnd_JNT
+      position: {x: -.180517152, y: 5.24025244e-16, z: 8.88178367e-17}
+      rotation: {x: 1.30385134e-08, y: 3.95811988e-08, z: 5.96046306e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: LeftThumbFng0_JNT
+      position: {x: -.0906053334, y: .0738738775, z: .0731436759}
+      rotation: {x: -.901851475, y: .319443196, z: .280894846, w: -.0756186694}
+      scale: {x: .999999523, y: .999999106, z: .99999994}
+      transformModified: 1
+    - name: LeftThumbFng1_JNT
+      position: {x: -.134013206, y: 1.42108544e-16, z: 0}
+      rotation: {x: -1.89989663e-07, y: 0, z: -.0283569191, w: .999597847}
+      scale: {x: .999999523, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: LeftThumbFngEnd_JNT
+      position: {x: -.172666371, y: 7.1054272e-17, z: -2.84217088e-16}
+      rotation: {x: -1.19209261e-07, y: 2.98023153e-08, z: 0, w: 1}
+      scale: {x: .999999821, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LeftWrist0_JNT
+      position: {x: -.257429034, y: 1.06581408e-16, z: 1.42108544e-16}
+      rotation: {x: -6.70552254e-08, y: -1.04308128e-07, z: -2.98023224e-08, w: 1}
+      scale: {x: .99999994, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: LeftWristEnd_JNT
+      position: {x: -.257429034, y: -7.1054272e-17, z: 0}
+      rotation: {x: 7.45057971e-09, y: -2.98023188e-08, z: 4.470348e-08, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: LeftDeltoid0_JNT
+      position: {x: -.290691078, y: 3.5527136e-17, z: 8.52651264e-16}
+      rotation: {x: -.0336088166, y: .344372183, z: -.0604069903, w: .93628484}
+      scale: {x: .999999464, y: 1.00000107, z: 1.0000006}
+      transformModified: 1
+    - name: LeftDeltoidEnd_JNT
+      position: {x: -.166437283, y: 8.88178367e-17, z: 0}
+      rotation: {x: -4.47034836e-08, y: 2.98023224e-08, z: -.0738821775, w: .997267008}
+      scale: {x: .999999642, y: .999999523, z: .99999994}
+      transformModified: 1
+    - name: RightArm0_JNT
+      position: {x: -.104736976, y: .0733650401, z: -.0588345006}
+      rotation: {x: -.785684586, y: .0183942467, z: .605526984, w: -.12529403}
+      scale: {x: .999999702, y: 1.00000072, z: 1.00000036}
+      transformModified: 1
+    - name: RightDeltoidAim_HM
+      position: {x: .290689379, y: 5.8823349e-07, z: 5.42448197e-06}
+      rotation: {x: .0604070686, y: .936283946, z: -.033608675, w: -.344374537}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightDeltoidAim_NUL
+      position: {x: 2.84217088e-16, y: 3.5527136e-17, z: 1.42108544e-16}
+      rotation: {x: 1.90184966e-19, y: .00595942372, z: -.0684599727, w: .99763608}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightDeltoidOri_HM
+      position: {x: -0, y: -1.7763568e-17, z: 0}
+      rotation: {x: 6.12325014e-17, y: 1, z: -6.12325014e-17, w: 2.59683475e-06}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightDeltoidOri_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArm1_JNT
+      position: {x: .290689379, y: 5.8823349e-07, z: 5.42448197e-06}
+      rotation: {x: -.0848666057, y: -.0890806466, z: -.118954793, w: .985247254}
+      scale: {x: .999999166, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: RightArm1_JNT_vHitbox
+      position: {x: .140299171, y: .0397937037, z: -.0136590255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 45.6020355, y: 34.2667503, z: 22.3556538}
+      transformModified: 1
+    - name: RightArm2_JNT
+      position: {x: .332876951, y: 8.40096135e-08, z: -1.72681212e-06}
+      rotation: {x: -.000663667393, y: -.00895757228, z: -.0424330719, w: .999058962}
+      scale: {x: .99999994, y: .999999583, z: .999999344}
+      transformModified: 1
+    - name: RightArm2_JNT_vHitbox
+      position: {x: .267008781, y: .0118206032, z: .0416967571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 51.9964027, y: 27.6394997, z: 27.8289318}
+      transformModified: 1
+    - name: RightArm3_JNT
+      position: {x: .514857173, y: -9.63742011e-08, z: 3.49038231e-07}
+      rotation: {x: -7.2177464e-09, y: -.109725222, z: -.0142295202, w: .993860185}
+      scale: {x: 1.00000024, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: RightArm3_JNT_vHitbox
+      position: {x: .251926124, y: .0283400919, z: -.0982289687}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 42.6867218, y: 29.4268456, z: 34.1711922}
+      transformModified: 1
+    - name: RightArm3_JNT_vHitbox1
+      position: {x: .251926124, y: .0283400919, z: -.0982289687}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 42.6867218, y: 29.4268456, z: 34.1711922}
+      transformModified: 1
+    - name: RightWristAim_HM
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWristAim_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWristOri_HM
+      position: {x: -.257428288, y: -3.17830064e-08, z: 2.34585784e-07}
+      rotation: {x: 2.77555756e-17, y: -1.90819582e-17, z: -1.73472348e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWristOri_NUL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArmEnd_JNT
+      position: {x: .200001791, y: 2.54946684e-07, z: -1.01442004e-06}
+      rotation: {x: .115331158, y: .140939355, z: .101814866, w: .977992117}
+      scale: {x: 1.00000012, y: .99999994, z: 1.0000006}
+      transformModified: 1
+    - name: RightIndexFng0_JNT
+      position: {x: .276092112, y: -.0392355435, z: -.119573407}
+      rotation: {x: .752192736, y: .197036326, z: -.146330327, w: .611531138}
+      scale: {x: .999999464, y: 1.00000072, z: 1.00000072}
+      transformModified: 1
+    - name: RightIndexFng1_JNT
+      position: {x: .136473894, y: -1.98661411e-07, z: -3.91154593e-08}
+      rotation: {x: -1.53900928e-07, y: -1.07102007e-08, z: .0203158725, w: -.999793589}
+      scale: {x: 1, y: 1.00000024, z: .999999702}
+      transformModified: 1
+    - name: RightIndexFngEnd_JNT
+      position: {x: .216422617, y: 3.51972034e-07, z: 2.10981508e-08}
+      rotation: {x: 8.47503472e-08, y: -9.24337513e-08, z: 1.79199532e-07, w: 1}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: RightMiddleFng0_JNT
+      position: {x: .270360082, y: .0441594794, z: -.102314301}
+      rotation: {x: .734117329, y: .210016191, z: -.139502883, w: .630479217}
+      scale: {x: .999999821, y: 1.00000083, z: 1}
+      transformModified: 1
+    - name: RightMiddleFng1_JNT
+      position: {x: .158762276, y: 2.22628358e-07, z: 1.02513473e-08}
+      rotation: {x: 4.02214688e-08, y: 2.21421814e-07, z: .0213307664, w: -.999772549}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: RightMiddleFngEnd_JNT
+      position: {x: .249319643, y: -1.57357135e-07, z: 6.00095333e-08}
+      rotation: {x: 2.02562642e-08, y: -2.98023188e-08, z: 2.89583078e-08, w: 1}
+      scale: {x: .999999702, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: RightRingFng0_JNT
+      position: {x: .240651205, y: .113299355, z: -.0825122744}
+      rotation: {x: .677176297, y: .228934392, z: -.127576992, w: .68756485}
+      scale: {x: 1.00000036, y: 1.00000167, z: 1.00000024}
+      transformModified: 1
+    - name: RightRingFng1_JNT
+      position: {x: .159009308, y: -7.13947486e-07, z: -8.94447226e-07}
+      rotation: {x: -5.83938743e-07, y: -3.31923093e-06, z: .0286776703, w: -.999588788}
+      scale: {x: .999999583, y: .999999106, z: .999999762}
+      transformModified: 1
+    - name: RightRingFngEnd_JNT
+      position: {x: .180516541, y: -1.85730698e-07, z: 3.82882519e-07}
+      rotation: {x: -3.53902507e-08, y: -5.96046306e-08, z: 0, w: 1}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000048}
+      transformModified: 1
+    - name: RightThumbFng0_JNT
+      position: {x: .0906077102, y: -.0738734454, z: -.0731451958}
+      rotation: {x: .901851535, y: -.319441378, z: -.280896723, w: .075618431}
+      scale: {x: 1.00000048, y: 1.00000012, z: 1.0000006}
+      transformModified: 1
+    - name: RightThumbFng1_JNT
+      position: {x: .134012878, y: 3.17954431e-07, z: -2.5622569e-08}
+      rotation: {x: -4.09781649e-08, y: -1.1548392e-06, z: .0283553395, w: -.999597967}
+      scale: {x: 1.00000119, y: .999999881, z: 1.00000048}
+      transformModified: 1
+    - name: RightThumbFngEnd_JNT
+      position: {x: .172666222, y: -9.82454367e-08, z: 1.16072776e-07}
+      rotation: {x: 5.96046164e-08, y: -4.47034623e-08, z: 4.47034623e-08, w: 1}
+      scale: {x: .999999583, y: 1, z: .999999642}
+      transformModified: 1
+    - name: RightWrist0_JNT
+      position: {x: .257428855, y: -1.28157211e-07, z: 5.83624001e-07}
+      rotation: {x: 1.4901163e-08, y: -1.4901163e-08, z: -2.98023259e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: RightWristEnd_JNT
+      position: {x: .257428288, y: 3.17830064e-08, z: -2.34585784e-07}
+      rotation: {x: 1.49011612e-08, y: 2.98023224e-08, z: 4.47034836e-08, w: 1}
+      scale: {x: .999999881, y: .999999702, z: 1}
+      transformModified: 1
+    - name: RightDeltoid0_JNT
+      position: {x: .290689379, y: 5.8823349e-07, z: 5.42448197e-06}
+      rotation: {x: -.033608865, y: .344372302, z: -.0604069084, w: .93628484}
+      scale: {x: .999999404, y: .999999821, z: 1.00000048}
+      transformModified: 1
+    - name: RightDeltoidEnd_JNT
+      position: {x: .166442975, y: 7.84853498e-08, z: -3.11192389e-06}
+      rotation: {x: -7.4505806e-09, y: -1.49011612e-08, z: -.0738822222, w: .997267067}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: LeftAntenna0_JNT
+      position: {x: -.24622573, y: -.250912666, z: .247759774}
+      rotation: {x: -.048950702, y: .148571461, z: .232682332, w: .959890246}
+      scale: {x: .999999762, y: 1, z: .999999404}
+      transformModified: 1
+    - name: LeftAntenna1_JNT
+      position: {x: -.666049004, y: 3.5527136e-17, z: 2.13162816e-16}
+      rotation: {x: -.00969938841, y: .173749849, z: .639588714, w: -.748761117}
+      scale: {x: .999999821, y: .999999523, z: 1.00000012}
+      transformModified: 1
+    - name: LeftAntennaEnd_JNT
+      position: {x: -.600547612, y: -1.70530253e-15, z: 4.97379917e-16}
+      rotation: {x: -.00627235975, y: -.00801756885, z: -.616141975, w: .787569284}
+      scale: {x: 1.0000006, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: RightAntenna0_JNT
+      position: {x: -.246221885, y: -.250911474, z: -.247759983}
+      rotation: {x: .148571491, y: .0489508212, z: -.959890246, w: .232682377}
+      scale: {x: .999999762, y: 1.00000036, z: .999999583}
+      transformModified: 1
+    - name: RightAntenna1_JNT
+      position: {x: .666054189, y: -1.08026813e-06, z: 1.78342111e-06}
+      rotation: {x: -.00969937444, y: .173749894, z: .639588773, w: -.748761058}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: RightAntennaEnd_JNT
+      position: {x: .600545347, y: -5.00169699e-06, z: 7.17101329e-07}
+      rotation: {x: -.0062723523, y: -.00801740866, z: -.616141975, w: .787569344}
+      scale: {x: .999999762, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Neck0_JNT
+      position: {x: -.226846039, y: 2.13162816e-16, z: 1.42986871e-17}
+      rotation: {x: -2.98023224e-08, y: 2.98023224e-08, z: .122848064, w: -.992425561}
+      scale: {x: 1.00000024, y: .999998927, z: .999999762}
+      transformModified: 1
+    - name: Neck0_JNT_vHitbox
+      position: {x: -.19185181, y: .0146989394, z: -3.14890692e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 37.1609268, y: 28.1235104, z: 30.5723457}
+      transformModified: 1
+    - name: Neck0_JNT_vHitbox1
+      position: {x: -.19185181, y: .0146989394, z: -3.14890692e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 37.1609268, y: 28.1235104, z: 30.5723457}
+      transformModified: 1
+    - name: Neck0_JNT_vHitbox2
+      position: {x: -.19185181, y: .0146989394, z: -3.14890692e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 37.1609268, y: 28.1235104, z: 30.5723457}
+      transformModified: 1
+    - name: Neck1_JNT
+      position: {x: -.0957513675, y: 2.84217088e-16, z: 1.21817069e-17}
+      rotation: {x: 2.98023224e-08, y: -2.98023224e-08, z: .0355049968, w: -.999369502}
+      scale: {x: 1.00000048, y: .999999762, z: .999999523}
+      transformModified: 1
+    - name: Head0_JNT
+      position: {x: -.106522627, y: 8.52651264e-16, z: -8.11188316e-18}
+      rotation: {x: 2.98023259e-08, y: -2.98023259e-08, z: -.0171343107, w: .999853194}
+      scale: {x: 1.0000006, y: 1.00000012, z: 1.00000072}
+      transformModified: 1
+    - name: HeadEnd_JNT
+      position: {x: -.202153578, y: -5.68434176e-16, z: 1.97616261e-17}
+      rotation: {x: -2.98023188e-08, y: 0, z: -8.94069601e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
