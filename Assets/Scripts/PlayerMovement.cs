@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour {
 	public float jumpSpeed = 10f;
 	public float nextJump = 0.0f;
 	public float jumpTime = 10f;
-	public float jumpForce = 500f;
-	private bool canJump = true;
+	public float jumpForce = 400f;
+	public bool canJump = true;
 	Vector3 movement;
 	Rigidbody playerRigidbody;
 
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Ground") {
+		if (other.tag == "Ground" || other.tag == "Platform") {
 			canJump = true;
 		}
 	}
