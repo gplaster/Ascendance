@@ -273,8 +273,8 @@ ModelImporter:
     4300002: MODEL:demon:demon
     4300004: MODEL:demon_LOD:demonwings001
     4300006: MODEL:demon_LOD:demon001
-    7400000: Walking
-    7400002: Idle
+    7400000: Atrox_Walking
+    7400002: Atrox_Idle
     9500000: //RootNode
     11100000: //RootNode
     13700000: MODEL:demon:demon
@@ -298,7 +298,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Walking
+      name: Atrox_Walking
       takeName: Take 001
       firstFrame: 2
       lastFrame: 38
@@ -590,7 +590,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Idle
+      name: Atrox_Idle
       takeName: Take 001
       firstFrame: 1
       lastFrame: 1.10000002

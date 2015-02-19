@@ -41,12 +41,12 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/PlatformCollide.cs'
 'Assets/Scripts/BlastMovement.cs'
 'Assets/Scripts/DestroyByBoundary.cs'
 'Assets/Scripts/DestroyByContact.cs'
 'Assets/Scripts/EnemyHealth.cs'
 'Assets/Scripts/EnemyMovement.cs'
+'Assets/Scripts/PlatformCollide.cs'
 'Assets/Scripts/PlayerAttack.cs'
 'Assets/Scripts/PlayerMovement.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
