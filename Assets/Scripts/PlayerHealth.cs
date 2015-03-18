@@ -5,6 +5,7 @@ public class PlayerHealth : MonoBehaviour {
 
 	public int startingHealth = 100;                            // The amount of health the player starts the game with.
 	public int currentHealth;                                   // The current health the player has.
+	ParticleSystem hitParticles;
 	//public Slider healthSlider;                                 // Reference to the UI's health bar.
 	//public Image damageImage;                                   // Reference to an image to flash on the screen on being hurt.
 	//public AudioClip deathClip;                                 // The audio clip to play when the player dies.
@@ -30,6 +31,7 @@ public class PlayerHealth : MonoBehaviour {
 		
 		// Set the initial health of the player.
 		currentHealth = startingHealth;
+		hitParticles = GetComponentInChildren <ParticleSystem> ();
 	}
 	
 	
@@ -60,6 +62,9 @@ public class PlayerHealth : MonoBehaviour {
 		
 		// Reduce the current health by the damage amount.
 		currentHealth -= amount;
+
+		//hitParticles.transform.position = hitPoint;
+		//hitParticles.Play ();
 		
 		// Set the health bar's value to the current health.
 		//healthSlider.value = currentHealth;

@@ -6,14 +6,14 @@ public class EnemyHealth : MonoBehaviour {
 	public int startingHealth = 100;
 	public int currentHealth;
 
-	//ParticleSystem hitParticles;
+	ParticleSystem hitParticles;
 	CapsuleCollider capsuleCollider;
 	bool isDead;
 	
 	
 	void Awake ()
 	{
-		//hitParticles = GetComponentInChildren <ParticleSystem> ();
+		hitParticles = GetComponentInChildren <ParticleSystem> ();
 		capsuleCollider = GetComponent <CapsuleCollider> ();
 
 		currentHealth = startingHealth;
@@ -27,6 +27,10 @@ public class EnemyHealth : MonoBehaviour {
 		}
 
 		currentHealth -= amount;
+
+		//hitParticles.transform.position;
+
+		hitParticles.Play ();
 
 		if(currentHealth <= 0)
 		{
