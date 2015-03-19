@@ -48,8 +48,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BlastMovement.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CrystalColor.cs" />
+     <Compile Include="Assets\Scripts\CrystalScript.cs" />
      <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
      <Compile Include="Assets\Scripts\DestroyByContact.cs" />
+     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\EnemyMobMovement.cs" />

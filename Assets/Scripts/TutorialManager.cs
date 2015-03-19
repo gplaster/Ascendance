@@ -76,7 +76,8 @@ public class TutorialManager : MonoBehaviour {
 				freezeTime = Time.time;
 				playerMovement.enabled = false;
 				anim.SetBool("isWalking", false);
-				text.text = "Uh oh! It looks like an enemy is approaching!\nUse what you've learned to defend yourself!";
+				text.text = "Uh oh! It looks like an enemy is approaching!\nUse what you've learned to defend yourself!\n" +
+					"Stand near the Vitrelux crystal shards to cleanse them!";
 			}
 
 			/* Wait until timer runs out to return movement control to player */
