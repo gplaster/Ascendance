@@ -13,7 +13,7 @@ public class CrystalScript : MonoBehaviour {
 	public int dist = 10;
 	private float smooth = 0.4f;
 	private Color startingColor;
-	private float startingSpeed;
+	//private float startingSpeed;
 	public float flashSpeed = 0.1f;
 	private bool cleansed = false;
 	public bool doneCleansing = false;
@@ -24,7 +24,7 @@ public class CrystalScript : MonoBehaviour {
 		//crystalParticles.startColor = new Color (121, 43, 202);
 		//crystalParticles.playOnAwake = true;
 		startingColor = crystalParticles.startColor;
-		startingSpeed = crystalParticles.startSpeed;
+		//startingSpeed = crystalParticles.startSpeed;
 		crystalParticles.Play ();
 		renderer.material.color = crystalParticles.startColor;
 	}

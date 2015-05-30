@@ -12,7 +12,6 @@ public class BlastMovement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		RaycastHit hit;
 
 		if (other.tag == "Enemy") {
 			EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();

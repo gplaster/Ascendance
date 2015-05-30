@@ -26,7 +26,6 @@ public class EnemyHealth : MonoBehaviour {
 			return;
 		}
 
-		print (currentHealth);
 		currentHealth -= amount;
 		//print (currentHealth);
 		

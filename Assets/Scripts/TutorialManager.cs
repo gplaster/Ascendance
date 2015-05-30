@@ -27,6 +27,7 @@ public class TutorialManager : MonoBehaviour {
 		enemyManager.spawnTime = spawnWait;
 		enemyManager.enemiesToSpawn = 0;
 		text = canvas.GetComponentInChildren<Text>();
+		StartCoroutine (introText());
 	}
 
 	void Update() {
@@ -53,7 +54,7 @@ public class TutorialManager : MonoBehaviour {
 			text.text = "";
 		}*/
 
-		if (Time.time < delayTimer) {
+		/*if (Time.time < delayTimer) {
 			text.text = "";
 		}
 		else if ((Time.time < (delayTimer + textTimer)) && freezeTime == 0) {
@@ -67,7 +68,7 @@ public class TutorialManager : MonoBehaviour {
 		}
 		else if ((Time.time < (delayTimer + (4 * textTimer))) && freezeTime == 0){
 			text.text = "";
-		}
+		}*/
 
 		if (Vector3.Distance(player.transform.position, enemyManager.spawnPoints[0].position) <= spawnDistance) {
 
@@ -88,5 +89,28 @@ public class TutorialManager : MonoBehaviour {
 				text.text = "";
 			}
 		}
+	}
+
+	IEnumerator introText() {
+
+		text.text = "";
+		yield return new WaitForSeconds(2);
+
+		text.text = "Use the A and D keys to move!";
+		yield return new WaitForSeconds(3);
+
+		text.text = "";
+		yield return new WaitForSeconds(2);
+
+		text.text = "Click to shoot a fireball!";
+		yield return new WaitForSeconds(3);
+
+		text.text = "";
+		yield return new WaitForSeconds(2);
+
+		text.text = "Use the Spacebar to jump!";
+		yield return new WaitForSeconds(3);
+
+		text.text = "";
 	}
 }

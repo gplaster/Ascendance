@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
 	Vector3 movement;
 	Vector3 rotation;
 	Rigidbody playerRigidbody;
+	PlayerAttack playerAttack;
 
 	public Animator anim;
 	public bool walking;
@@ -19,6 +20,8 @@ public class PlayerMovement : MonoBehaviour {
 	void Awake() {
 		playerRigidbody = GetComponent<Rigidbody> ();
 		anim = GetComponent<Animator> ();
+		Physics.gravity = new Vector3(0, -30.0F, 0);
+		playerAttack = GetComponent<PlayerAttack> ();
 	}
 
 	void FixedUpdate () {
@@ -38,11 +41,12 @@ public class PlayerMovement : MonoBehaviour {
 
 	void Move (float h, float j, float v) {
 
-		movement.Set (h, 0f, v);
+		movement.Set (h, 0f, 0f);
 		movement = movement.normalized * speed * Time.deltaTime;
 
 		if (h != 0) {
 			transform.forward = new Vector3(-h, 0f, 0f);
+			playerAttack.direction = -h;
 		}
 
 		playerRigidbody.MovePosition (transform.position + movement);
@@ -51,18 +55,21 @@ public class PlayerMovement : MonoBehaviour {
 			nextJump = Time.time + jumpTime;
 			canJump = false;
 			//playerRigidbody.MovePosition (transform.position + (transform.up * j));
-			playerRigidbody.AddForce (transform.up * jumpForce);
+			playerRigidbody.AddRelativeForce (transform.up * jumpForce);
+			//playerRigidbody.velocity *= 5;
 		}
 
 		anim.SetBool("isWalking", walking);
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Ground") {
+		if (other.tag == "Ground" && (collider.bounds.min.y + 0.3f >= other.collider.bounds.max.y)) {
 			canJump = true;
 		}
 		else if (other.tag == "Platform" && !other.collider.isTrigger) {
 			canJump = true;
 		}
+
+		//playerRigidbody.velocity /= 2;
 	}
 }

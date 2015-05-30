@@ -13,21 +13,30 @@ public class PlatformCollide : MonoBehaviour {
 
 	void Update () {
 		playerBounds = player.collider.bounds;
-	}
 
-	void OnTriggerExit (Collider other) {
+		if (playerBounds.min.y >= collider.bounds.min.y) {
 
-		if (other.tag == "Player") {
-
-			/* If player feet are above top of platform, set collider as trigger */
-			if(playerBounds.min.y >= collider.bounds.max.y)
-			{
-			    collider.isTrigger = false;
-			}
-			else /* If player feet is below top of platform, ignore collisions with platform */
-			{
-				collider.isTrigger = true;
-			}
+			collider.isTrigger = false;
+		}
+		else {
+			collider.isTrigger = true;
 		}
 	}
+
+	void OnTriggerEnter (Collider other) {
+
+		/*if (other.tag == "Player") {
+
+			/* If player feet are above bottom of platform, set collider as trigger */
+			/*if(other.bounds.min.y >= collider.bounds.min.y)
+			{
+				collider.isTrigger = false;
+			}
+			else /* If player feet is below top of platform, ignore collisions with platform */
+			/*{
+				collider.isTrigger = true;
+			}
+		}*/
+	}
+
 }
