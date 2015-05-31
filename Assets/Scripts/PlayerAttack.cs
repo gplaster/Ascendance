@@ -26,8 +26,7 @@ public class PlayerAttack : MonoBehaviour {
 				Vector3 mousePosition = Input.mousePosition;
 				mousePosition.z = 19.42f;
 				mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-				//print("Mouse: " + mousePosition);
-				//print(transform.position);
+
 				Vector3 shootDirection = mousePosition - transform.position;
 				shootDirection.z = 0f;
 				shootDirection.Normalize();
@@ -41,6 +40,15 @@ public class PlayerAttack : MonoBehaviour {
 			}
 			else if (Time.time > nextFire) {
 				nextFire = Time.time + fireRate;
+
+				Vector3 mousePosition = Input.mousePosition;
+				mousePosition.z = 19.42f;
+				mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+
+				Vector3 shootDirection = mousePosition - transform.position;
+				shootDirection.z = 0f;
+				shootDirection.Normalize();
+				blastSpawn.transform.forward = shootDirection;
 				Instantiate (blast, blastSpawn.position, blastSpawn.rotation);
 			}
 		}

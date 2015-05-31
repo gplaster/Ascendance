@@ -13,7 +13,7 @@ public class BlastMovement : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 
-		if (other.tag == "Enemy") {
+		if (tag == "EnergyBlast" && other.tag == "Enemy") {
 			EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
 
 			//This piece not working
@@ -27,7 +27,7 @@ public class BlastMovement : MonoBehaviour {
 			enemyHealth.TakeDamage(25);
 		}
 		
-		if (other.tag == "Player") {
+		if (tag == "ShadowBall" && other.tag == "Player") {
 			PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
 
 			/*if (Physics.Raycast(transform.position, transform.forward, out hit)) {
