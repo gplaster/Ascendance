@@ -15,7 +15,7 @@ public class DrawGrappleLine : MonoBehaviour
 		line = this.gameObject.AddComponent <LineRenderer>();
 		line.SetWidth (startWidth, endWidth);
 		line.SetVertexCount (2);
-		line.material.color = Color.red;
+		line.material.color = Color.yellow;
 		//we need to see the line... 
 		line.renderer.enabled = true;
 	}

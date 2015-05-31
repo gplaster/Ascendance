@@ -18,6 +18,9 @@ public class TutorialCrystalScript : MonoBehaviour {
 	private PlayerHealth playerHealth;
 	public Text text;
 
+	public GameObject bg;
+	public GameObject fg;
+
 	void Awake () {
 		startingColor = crystalParticles.startColor;
 		//startingSpeed = crystalParticles.startSpeed;

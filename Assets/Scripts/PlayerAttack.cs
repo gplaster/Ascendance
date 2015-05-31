@@ -35,6 +35,10 @@ public class PlayerAttack : MonoBehaviour {
 				//InstanceGrapple.rigidbody.AddForce ((transform.TransformDirection(Vector3.back).normalized).x * shootForceX, shootForceY, 0f);
 				//InstanceGrapple.position = Vector3.Lerp(blastSpawn.position, touchPosition, 5f * Time.deltaTime);
 				//InstanceGrapple.rigidbody.AddForce(InstanceGrapple.forward * shootForceX);
+				//InstanceGrapple.transform.forward = shootDirection;
+				//InstanceGrapple.forward = InstanceGrapple.up;
+				//InstanceGrapple.LookAt(mousePosition);
+				//InstanceGrapple.Rotate(Quaternion.LookRotation(mousePosition));
 				InstanceGrapple.rigidbody.AddForce(shootDirection * shootForceX);
 				//InstanceGrapple.rigidbody2D.velocity = shootDirection * 25f;
 			}

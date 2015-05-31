@@ -10,7 +10,7 @@ public class EndState : MonoBehaviour {
 	public GameObject player;
 
 	public GameObject[] crystalScript;
-	public GameObject[] platformCollide;
+	//public GameObject[] platformCollide;
 
 	public bool finalPlayerIsDead;
 	
