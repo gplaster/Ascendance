@@ -4,6 +4,7 @@ using System.Collections;
 public class BlastMovement : MonoBehaviour {
 
 	public float speed = 6f;
+	public int damage = 0;
 
 	Vector3 movement;
 	
@@ -36,7 +37,7 @@ public class BlastMovement : MonoBehaviour {
 				}
 			}*/
 
-			playerHealth.TakeDamage(25);
+			playerHealth.TakeDamage(damage);
 		}
 
 	}

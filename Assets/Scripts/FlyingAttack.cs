@@ -56,12 +56,13 @@ public class FlyingAttack : MonoBehaviour
 		// Reset the timer.
 		timer = 0f;
 		
-		Vector3 shootDirection = player.transform.position - transform.position;
+		Vector3 shootDirection = player.transform.position - blastSpawn.position;
 		//shootDirection.z = 0f;
 		shootDirection.Normalize();
 		
 		blastSpawn.transform.forward = shootDirection;
-		blastSpawn.LookAt (shootDirection);
-		Instantiate (blast, blastSpawn.position, blastSpawn.rotation);
+		//blastSpawn.LookAt (shootDirection);
+		GameObject ball = Instantiate (blast, blastSpawn.position, blastSpawn.rotation) as GameObject;
+		ball.GetComponent<BlastMovement>().damage = attackDamage;
 	}
 }

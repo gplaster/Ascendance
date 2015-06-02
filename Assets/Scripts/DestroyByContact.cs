@@ -13,11 +13,16 @@ public class DestroyByContact : MonoBehaviour {
 			return;
 		}
 		//Instantiate(explosion, transform.position, transform.rotation);
-		if (other.tag == "Player")
+		if (tag == "ShadowBall" && other.tag == "Player")
 		{
 			//Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
+			Destroy(gameObject);
+		}
+
+		if (tag == "EnergyBlast" && other.tag != "Player") {
+			Destroy(gameObject);
 		}
 		//Destroy(other.gameObject);
-		Destroy(gameObject);
+		//Destroy(gameObject);
 	}
 }

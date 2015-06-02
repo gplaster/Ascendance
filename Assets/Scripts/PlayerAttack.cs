@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerAttack : MonoBehaviour {
@@ -17,7 +18,17 @@ public class PlayerAttack : MonoBehaviour {
 	public bool grappling = false;
 	public float direction = 1f;
 
+	private Image grappleImage;
+	private Image fireballImage;
+
+	void Awake() {
+		grappleImage = GameObject.FindGameObjectWithTag ("GrappleIcon").GetComponent<Image> ();
+		fireballImage = GameObject.FindGameObjectWithTag ("FireballIcon").GetComponent<Image> ();
+		grappleImage.enabled = false;
+	}
+
 	void Update () {
+
 		if (Input.GetButton("Fire1")) {
 
 			if (grappling && Time.time > nextFire && canGrapple) {
@@ -53,12 +64,40 @@ public class PlayerAttack : MonoBehaviour {
 				shootDirection.z = 0f;
 				shootDirection.Normalize();
 				blastSpawn.transform.forward = shootDirection;
+				/*Vector3 difference = new Vector3(Mathf.Abs(transform.position.x - blastSpawn.position.x), blastSpawn.position.y, 0f);
+
+				if (direction == -1 && mousePosition.x < transform.position.x) {
+					blastSpawn.position = transform.position - difference;
+
+				}
+				else if (direction == 1 && mousePosition.x > transform.position.x) {
+					blastSpawn.position = transform.position + difference;
+				}
+				else if (direction == -1 && mousePosition.x > transform.position.x) {
+					blastSpawn = saveBlastSpawn;
+				}
+				else {
+					blastSpawn.position = transform.position - difference;
+				}*/
+
 				Instantiate (blast, blastSpawn.position, blastSpawn.rotation);
 			}
 		}
 
 		if (Input.GetKeyDown (KeyCode.E)) {
 			grappling = !grappling;
+
+			if (canGrapple) {
+
+				if(grappling) {
+					fireballImage.enabled = false;
+					grappleImage.enabled = true;
+				}
+				else {
+					fireballImage.enabled = true;
+					grappleImage.enabled = false;
+				}
+			}
 		}
 
 	}

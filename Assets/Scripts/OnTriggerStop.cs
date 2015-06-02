@@ -28,25 +28,32 @@ public class OnTriggerStop : MonoBehaviour
 
 	}
 
-	void Update () {
+	void FixedUpdate () {
 
 		GameObject player = GameObject.FindGameObjectWithTag ("Player");
 
-		if (transform.position.y < player.transform.position.y) {
+		if (grapplingGround && transform.collider.bounds.min.y < player.transform.collider.bounds.max.y) {
+			gameObject.SetActive(false);
 			Destroy(gameObject);
 		}
 
-		if (Vector3.Distance(player.transform.position, gameObject.transform.position) > maxDistance) {
+		if (transform.collider.bounds.max.y < player.transform.collider.bounds.min.y) {
+			gameObject.SetActive(false);
 			Destroy(gameObject);
 		}
 
-		if (grapplingPlatform) {
+		if (Vector3.Distance(player.transform.position, transform.position) > maxDistance) {
+			Destroy(gameObject);
+		}
+
+		if (grapplingPlatform && gameObject.activeInHierarchy) {
 			StartCoroutine(MoveGrapple());
 		}
 
-		if (grapplingGround) {
+		if (grapplingGround && gameObject.activeInHierarchy) {
 			StartCoroutine(MoveGrapple());
 		}
+		//print("dfadfadf");
 	}
 
 	IEnumerator MoveGrapple() {
@@ -59,6 +66,7 @@ public class OnTriggerStop : MonoBehaviour
 				player.transform.position = Vector3.Lerp (player.transform.position, this.transform.position + new Vector3(0f, 5f, 0f), t);
 				yield return null;
 			}
+
 			Destroy (gameObject);
 		}
 
@@ -67,9 +75,10 @@ public class OnTriggerStop : MonoBehaviour
 
 			while (t < 1.0f) {
 				t += Time.deltaTime / 2f;
-				player.transform.position = Vector3.Lerp (player.transform.position, this.transform.position + new Vector3(0f, 2f, 0f), t);
+				player.transform.position = Vector3.Lerp (player.transform.position, this.transform.position + new Vector3(0f, 1f, 0f), t);
 				yield return null;
 			}
+			player.GetComponent<PlayerAttack>().canGrapple = true;
 			Destroy (gameObject);
 		}
 	}

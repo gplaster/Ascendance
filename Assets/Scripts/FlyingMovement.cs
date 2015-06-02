@@ -56,12 +56,12 @@ public class FlyingMovement : MonoBehaviour {
 			if (distance <= minDistance) {
 				playerInRange = true;
 				attackingPlayer = true;
-				Vector3 position = player.transform.position - transform.position;
+				Vector3 position = player.collider.bounds.min - transform.position - new Vector3(0f, 5f, 0f);
 				Quaternion newRotation = Quaternion.LookRotation(position);
 
 				//newRotation.z = Quaternion.identity.z;
 				//newRotation.x = transform.rotation.x;
-				transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * 5f);;
+				transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * 5f);
 				//transform.eulerAngles = Vector3.Lerp(transform.position, position, Time.deltaTime * 5f);
 				//transform.Rotate(transform.LookAt);
 			}

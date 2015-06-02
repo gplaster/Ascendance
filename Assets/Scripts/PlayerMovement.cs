@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour {
 	Vector3 rotation;
 	Rigidbody playerRigidbody;
 	PlayerAttack playerAttack;
+	private float maxVelocity = 10f;
 
 	public Animator anim;
 	public bool walking;
@@ -36,11 +37,18 @@ public class PlayerMovement : MonoBehaviour {
 			walking = false;
 		}
 
+		if(rigidbody.velocity.sqrMagnitude > maxVelocity)
+		{
+			//smoothness of the slowdown is controlled by the 0.99f, 
+			//0.5f is less smooth, 0.9999f is more smooth
+			rigidbody.velocity *= 0.99f;
+		}
+		
 		Move (h, j, v);
 	}
-
+	
 	void Move (float h, float j, float v) {
-
+		
 		movement.Set (h, 0f, 0f);
 		movement = movement.normalized * speed * Time.deltaTime;
 

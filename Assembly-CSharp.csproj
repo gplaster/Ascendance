@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BlastMovement.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\ChangeCrystalText.cs" />
      <Compile Include="Assets\Scripts\CrystalColor.cs" />
      <Compile Include="Assets\Scripts\CrystalScript.cs" />
      <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\ShootGrapple.cs" />
      <Compile Include="Assets\Scripts\StartScreenManager.cs" />
+     <Compile Include="Assets\Scripts\StopPlayer.cs" />
      <Compile Include="Assets\Scripts\TutorialCrystalScript.cs" />
      <Compile Include="Assets\Scripts\TutorialManager.cs" />
      <Compile Include="Assets\Scripts\tutorialCrystalColor.cs" />

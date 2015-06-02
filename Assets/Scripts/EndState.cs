@@ -9,7 +9,7 @@ public class EndState : MonoBehaviour {
 	public PlayerHealth playerHealth;
 	public GameObject player;
 
-	public GameObject[] crystalScript;
+	//public GameObject[] crystalScript;
 	//public GameObject[] platformCollide;
 
 	public bool finalPlayerIsDead;
@@ -54,11 +54,5 @@ public class EndState : MonoBehaviour {
 		yield return new WaitForSeconds(3);
 		text.text = "";
 		Application.LoadLevel("Start_Screen");
-	}
-	
-	IEnumerator PauseWaitResume (float pauseDelay) {
-		Time.timeScale = 0.0000001f;
-		yield return new WaitForSeconds(pauseDelay * Time.timeScale);
-		Time.timeScale = 1.0f;
 	}
 }
